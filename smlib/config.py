@@ -32,7 +32,7 @@ MANUAL_DATA = [
         "groups":[
             {
                 "applications":[
-                    "applications/google-chrome.desktop"
+                    "/usr/share/applications/google-chrome.desktop"
                 ],
                 "name":"Chrome",
                 "label":r"\uf268",
@@ -41,7 +41,7 @@ MANUAL_DATA = [
             },
             {
                 "applications":[
-                    "applications/code.desktop"
+                    "/usr/share/applications/code.desktop"
                 ],
                 "name":"Code",
                 "label":r"\ue70c",
@@ -50,7 +50,7 @@ MANUAL_DATA = [
             },
             {
                 "applications":[
-                    "applications/code.desktop"
+                    "/usr/share/applications/code.desktop"
                 ],
                 "name":"Code 2",
                 "label":r"\ue70c",
@@ -59,7 +59,7 @@ MANUAL_DATA = [
             },
             {
                 "applications":[
-                    "applications/Alacritty.desktop"
+                    "/usr/share/applications/Alacritty.desktop"
                 ],
                 "name":"Terminal",
                 "label":r"\uf120",
@@ -68,8 +68,8 @@ MANUAL_DATA = [
             },
             {
                 "applications":[
-                    "applications/com.discordapp.Discord.desktop",
-                    "applications/slack.desktop"
+                    "/usr/share/applications/com.discordapp.Discord.desktop",
+                    "/usr/share/applications/slack.desktop"
                 ],
                 "name":"Social",
                 "label":r"\uf198",
@@ -78,7 +78,7 @@ MANUAL_DATA = [
             },
             {
                 "applications":[
-                    "applications/spotify.desktop"
+                    "/usr/share/applications/spotify.desktop"
                 ],
                 "name":"Spotify",
                 "label":r"\uf1bc",
@@ -87,7 +87,7 @@ MANUAL_DATA = [
             },
             {
                 "applications":[
-                    "applications/Alacritty.desktop"
+                    "/usr/share/applications/Alacritty.desktop"
                 ],
                 "name":"Terminal",
                 "label":r"\uf120",
@@ -96,7 +96,7 @@ MANUAL_DATA = [
             },
             {
                 "applications":[
-                    "applications/google-chrome.desktop"
+                    "/usr/share/applications/google-chrome.desktop"
                 ],
                 "name":"Chrome",
                 "label":r"\uf268",
@@ -105,7 +105,7 @@ MANUAL_DATA = [
             },
             {
                 "applications":[
-                    "applications/org.gnome.Nautilus.desktop"
+                    "/usr/share/applications/org.gnome.Nautilus.desktop"
                 ],
                 "name":"Files",
                 "label":r"\uea83",
