@@ -26,17 +26,94 @@ DEFAULT_ENVIRONMENT = 0
 # Default: False
 MANUAL_SETUP = True
 
-# Environments initialization data
-ENVIRONMENTS = [
-    ""
-]
-
-# Groups initialization data
-GROUPS = [
-    ""
-]
-
-# Apps initialization data
-APPS = [
-    ""
+MANUAL_DATA = [
+    # First list entities are Environment-instance data
+    {
+        "groups":[
+            {
+                "applications":[
+                    "applications/google-chrome.desktop"
+                ],
+                "name":"Chrome",
+                "label":r"\uf268",
+                "exclusive":False,
+                "spawn":True
+            },
+            {
+                "applications":[
+                    "applications/code.desktop"
+                ],
+                "name":"Code",
+                "label":r"\ue70c",
+                "exclusive":False,
+                "spawn":True
+            },
+            {
+                "applications":[
+                    "applications/code.desktop"
+                ],
+                "name":"Code 2",
+                "label":r"\ue70c",
+                "exclusive":False,
+                "spawn":True
+            },
+            {
+                "applications":[
+                    "applications/Alacritty.desktop"
+                ],
+                "name":"Terminal",
+                "label":r"\uf120",
+                "exclusive":False,
+                "spawn":True
+            },
+            {
+                "applications":[
+                    "applications/com.discordapp.Discord.desktop",
+                    "applications/slack.desktop"
+                ],
+                "name":"Social",
+                "label":r"\uf198",
+                "exclusive":False,
+                "spawn":False
+            },
+            {
+                "applications":[
+                    "applications/spotify.desktop"
+                ],
+                "name":"Spotify",
+                "label":r"\uf1bc",
+                "exclusive":False,
+                "spawn":True
+            },
+            {
+                "applications":[
+                    "applications/Alacritty.desktop"
+                ],
+                "name":"Terminal",
+                "label":r"\uf120",
+                "exclusive":False,
+                "spawn":True
+            },
+            {
+                "applications":[
+                    "applications/google-chrome.desktop"
+                ],
+                "name":"Chrome",
+                "label":r"\uf268",
+                "exclusive":False,
+                "spawn":True
+            },
+            {
+                "applications":[
+                    "applications/org.gnome.Nautilus.desktop"
+                ],
+                "name":"Files",
+                "label":r"\uea83",
+                "exclusive":False,
+                "spawn":True
+            },
+        ],
+        "name":"Work",
+        "label":r"\udb80\udce5",
+    }
 ]
